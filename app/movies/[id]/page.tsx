@@ -3,7 +3,7 @@ import MovieInfo from "../../../components/movie-info";
 import MovieVideos from "../../../components/movie-videos";
 
 export default async function Page({ params }: { params: { id: string } }) {
-  const { id } = await params;
+  const { id } = params;
 
   return (
     <div>

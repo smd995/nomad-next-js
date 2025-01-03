@@ -1,7 +1,6 @@
-import { API_URL } from "../app/(home)/page";
+import { API_URL } from "../lib/constants";
 
 async function getMovie(id: string) {
-  throw new Error("something broke");
   const response = await fetch(`${API_URL}/${id}`);
   return response.json();
 }
